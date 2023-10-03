@@ -5,9 +5,9 @@ from taggit.managers import TaggableManager
     - title  done
     - author
     - content  done
-    - image
+    - image done
     - publish_date  done
-    - tags
+    - tags done
 '''
 '''
     - fields
@@ -19,5 +19,7 @@ class post(models.Model):
     content = models.TextField(max_length= 50000)
     publish_date = models.DateTimeField()
     tags = TaggableManager()
+    image = models.ImageField(upload_to='postimages')
+
     def __str__(self):
         return self.title
