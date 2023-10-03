@@ -5,7 +5,7 @@ from taggit.managers import TaggableManager
     - title  done
     - author
     - content  done
-    - image done
+    - image  done
     - publish_date  done
     - tags done
 '''
