@@ -4,7 +4,7 @@ from django.contrib.auth.models import User
 # Create your models here.
 '''
     - title  done
-    - author
+    - author done
     - content  done
     - image  done
     - publish_date  done
